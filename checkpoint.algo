@@ -1,0 +1,20 @@
+ALGORITHM count caracter
+VAR
+    car_number,vowels_number: INTEGER := 0;
+    words_number: INTEGER := 0;
+    i: INTEGER;
+BEGIN
+    Read(CH);
+    while( CH == '.') BEGIN
+     car_number := car_number+1;
+      if(CH = ' ')THEN
+      words_number :=  words_number+1;
+      END_IF
+      if(CH='a' OR CH='e' OR CH='i' OR CH='y' CH='u' OR CH='O' OR CH='A' OR CH='I' OR CH='E' OR CH='Y' OR CH='U' OR CH='O' )THEN
+      vowels_number: :=  vowels_number:+1;
+      END_IF
+END
+    Write(car_number);
+    Write(words_number);
+    Write(vowels_number);
+END
